@@ -1,0 +1,8 @@
+__pycache__
+*.pyc
+*.jpg
+*.png
+*.jpg
+*.jpeg
+tb_runs
+vgg/*.pth
