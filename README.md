@@ -16,4 +16,4 @@ TODO:
 * CLI (currently everything is hardcoded).
 
 To run, by default you need to have a VGG19 checkpoint at `vgg/vgg19-imagenet.pth`.
-If you don't have one, you can either download https://download.pytorch.org/models/vgg19-dcbb9e9d.pth manually and rename, or simply set `weights_path=None` in `vgg.get_VGG_features` in [stylize.py][stylize.py]. In this case, PyTorch will download the checkpoint automatically and cache it.
+If you don't have one, you can either download https://download.pytorch.org/models/vgg19-dcbb9e9d.pth manually and rename, or simply set `weights_path=None` in `vgg.get_VGG_features` in [neural_style.py](neural_style.py#L29). In this case, PyTorch will download the checkpoint automatically and cache it.
